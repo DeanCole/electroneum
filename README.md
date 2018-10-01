@@ -1,7 +1,7 @@
 
 # Electroneum
 
-Copyright (c) 2017-2018, The Electroneum Project
+Copyright (c) 2017-2018, The Electroneum Project  
 Copyright (c) 2014-2017, The Monero Project  
 Portions Copyright (c) 2012-2013, The Cryptonote developers  
 
@@ -40,8 +40,8 @@ If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidel
 
 | Software upgrade block height | Date       | Fork version | Minimum Electroneum version | Recommended Electroneum version | Details                                                                            |
 | ------------------------------ | -----------| ----------------- | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------- |
-| 307500                         | 2018-05-30 | v6                | v2.0.0.0              | v2.0.0.0                  | Disable Mixin, Disable RingCT, Base Fee to 0.10 from 0.01, 120s Block Time, Anti-Asic Resistance         |
-| 324500                         | 2018-07-05 | v7                | v2.1.0.0              | v2.1.0.0                  | Enable ASIC         |
+| 307500                         | 2018-05-30 | v6                | [v2.0.0.0](https://github.com/electroneum/electroneum/releases/tag/v2.0.0.0)              | [v2.0.0.0](https://github.com/electroneum/electroneum/releases/tag/v2.0.0.0)                  | Disable Mixin, Disable RingCT, Base Fee to 0.10 from 0.01, 120s Block Time, Anti-Asic Resistance         |
+| 324500                         | 2018-07-05 | v7                | [v2.1.0.0](https://github.com/electroneum/electroneum/releases/tag/v2.1.0.0)              | [v2.1.1.1](https://github.com/electroneum/electroneum/releases/tag/v2.1.1.1)                  | Enable ASIC         |
 
 X's indicate that these details have not been determined as of commit date.
 
@@ -94,7 +94,7 @@ library archives (`.a`).
 | CMake          | 3.0.0         | NO       | `cmake`            | `cmake`        | NO       |                |
 | pkg-config     | any           | NO       | `pkg-config`       | `base-devel`   | NO       |                |
 | Boost          | 1.58          | NO       | `libboost-all-dev` | `boost`        | NO       | C++ libraries  |
-| OpenSSL        | basically any | NO       | `libssl-dev`       | `openssl`      | NO       | sha256 sum     |
+| OpenSSL        | 1.0.* | NO       | `libssl-dev`       | `openssl`      | NO       | sha256 sum     |
 | libunbound     | 1.4.16        | YES      | `libunbound-dev`   | `unbound`      | NO       | DNS resolver   |
 | libminiupnpc   | 2.0           | YES      | `libminiupnpc-dev` | `miniupnpc`    | YES      | NAT punching   |
 | libunwind      | any           | NO       | `libunwind8-dev`   | `libunwind`    | YES      | Stack traces   |
