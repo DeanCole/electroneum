@@ -36,6 +36,22 @@ See [LICENSE](LICENSE).
 
 If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidelines.
 
+# TeamCity CI
+
+### Compiled Builds
+| Operating System      | Processor | Status |
+| --------------------- | -------- |--------|
+| Ubuntu 16.04 (Debug: Static)            |  amd64   | [![Ubuntu 16.04 amd64](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_DebugStaticAllLinux/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_DebugStaticAllLinux&guest=1)
+| Ubuntu 16.04 (Release: Static)          |  amd64   | [![Ubuntu 16.04 amd64](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_ReleaseStaticLinuxX8664/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_ReleaseStaticLinuxX8664&guest=1)
+| OSX 10.12 (Release: Static)             |  amd64   | [![OSX 10.12 amd64](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_ReleaseStaticMacX8664/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_ReleaseStaticMacX8664&guest=1)
+| Windows (MSYS2/MinGW - Release: Static) |  amd64   | [![Windows (MSYS2/MinGW) amd64](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_ReleaseStaticWin64/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_ReleaseStaticWin64&guest=1)
+
+### Tests
+| Operating System      | Processor | Status |
+| --------------------- | -------- |--------|
+| Linux Core Tests      |  amd64   | [![Ubuntu 16.04 Static Debug](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_LinuxDebugStaticRunCoreTests/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_LinuxDebugStaticRunCoreTests&guest=1)
+| Linux Unit Tests      |  amd64   | [![Ubuntu 16.04 Static Debug](http://teamcity.electroneum.com:8111/app/rest/builds/buildType:ElectroneumPublic_DebugStaticAllLinuxUnitTests/statusIcon)](http://teamcity.electroneum.com:8111/viewType.html?buildTypeId=ElectroneumPublic_DebugStaticAllLinuxUnitTests&guest=1)
+
 ## Scheduled software upgrades
 
 | Software upgrade block height | Date       | Fork version | Minimum Electroneum version | Recommended Electroneum version | Details                                                                            |
